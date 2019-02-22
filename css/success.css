@@ -1,0 +1,120 @@
+.content{
+    width:100%;
+    height: 12.32rem;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+.content img{
+    width: 100%;
+    height: 12.32rem;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.contentBox{
+    width: 4.87rem;
+    height: 2.03rem;
+    line-height: 0.7rem;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: #ffffff;
+    position: absolute;
+    top:0.72rem;
+    left: 1.52rem;
+}
+.font{
+    font-size: 0.36rem;
+    color: #f7c7fe;
+}
+.font1{
+    font-size: 0.48rem;
+}
+.contentBox1{
+    width: 100%;
+    height: 3.18rem;
+    position: relative;
+    top: 3.97rem;
+    left: 0.2rem;
+}
+.contentBox1 img{
+    width: 2.62rem;
+    height: 2.44rem;
+    position: absolute;
+    bottom:0.49rem;
+    left: 2.47rem;
+}
+.contentBox1 .first{
+    width: 0.12rem;
+    height: 0.12rem;
+    background-color: #ffffff;
+    box-shadow: -0.04rem 0 0.2rem 0
+    #c620ed;
+    border-radius: 50%;
+    position: absolute;
+    bottom:3rem;
+    left: 2.18rem;
+}
+.contentBox1 .second{
+    width: 0.15rem;
+    height: 0.15rem;
+    background-color: #ffffff;
+    box-shadow: -0.04rem 0 0.2rem 0
+    #c620ed;
+    border-radius: 50%;
+    position: absolute;
+    bottom:1.66rem;
+    left: 2.06rem;
+}
+.contentBox1 .third{
+    width: 0.12rem;
+    height: 0.12rem;
+    background-color: #ffffff;
+    box-shadow: -0.04rem 0 0.2rem 0
+    #c620ed;
+    border-radius: 50%;
+    position: absolute;
+    bottom:1.2rem;
+    left: 5.27rem;
+}
+.contentBox1 .fourth{
+    width: 0.15rem;
+    height: 0.15rem;
+    background-color: #ffffff;
+    box-shadow: -0.04rem 0 0.2rem 0
+    #c620ed;
+    border-radius: 50%;
+    position: absolute;
+    bottom:1.98rem;
+    left: 5.74rem;
+    margin: 0 auto;
+}
+.bottom{
+    width: 3.21rem;
+    height: 0.45rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 7.57rem;
+    left: 2.15rem;
+}
+.bottom .btn{
+    width: 1.45rem;
+    height: 0.45rem;
+    text-align: center;
+    background-image: linear-gradient(90deg,
+    #9351d9 0%,
+    #ce13ed 100%);
+    box-shadow: 0 0.03rem 0.2rem 0
+    rgba(199, 26, 234, 0.73);
+    border-radius: 0.2rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.btn>a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,127 @@
+.content{
+    width: 100%;
+    height: 13.14rem;
+    background: white;
+}
+.content .title{
+    width: 100%;
+    height: 0.95rem;
+    font-size: 0.36rem;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.title .img1{
+    width: 0.36rem;
+    height: 0.36rem;
+    position: fixed;
+    top:0.26rem;
+    left: 0.24rem;
+}
+.contentBox{
+    width: 6.56rem;
+    height: 0.6rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: rgba(2,2,2,0.55);
+    margin: 0 auto;
+}
+.underline{
+    width: 6.66rem;
+    height: 0.01rem;
+    background: rgba(0,0,0,0.05);
+    margin:0.05rem auto;
+}
+.contentBox1{
+    width: 6.8rem;
+    height: 0.68rem;
+    font-size: 0.24rem;
+    font-weight: bold;
+    color: rgba(2,2,2,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.26rem;
+    margin-left: 0.48rem;
+}
+.contentBox1 img{
+    width: 0.26rem;
+    height: 0.19rem;
+}
+.contentBox1 .font{
+    margin-left: -2.78rem;
+}
+.font1 span{
+    font-size: 0.18rem;
+    font-weight: bold;
+    color: #fcb0b0;
+}
+.font1{
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: #ff0000;
+}
+.bank{
+    width: 6.43rem;
+    height: 3.69rem;
+    margin: 0.2rem auto;
+}
+.bank img{
+    width: 6.43rem;
+    height: 3.69rem;
+}
+.underline1{
+    width: 6.66rem;
+    height: 0.01rem;
+    background: rgba(0,0,0,0.05);
+    box-shadow: 0 0.04rem 0.21rem 0
+    #dcdcdc;
+    margin: 0rem auto;
+}
+.password{
+    width: 4.87rem;
+    height: 1.94rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.password .first{
+    width: 0.5rem;
+    height: 0.08rem;
+    background: #bfbfbf;
+    border-radius: 5rem;
+    font-size: 1.5rem;
+    color:  #999898;
+    position: relative;
+}
+.first .font2{
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0.04rem;
+}
+.first1{
+    width: 0.5rem;
+    height: 0.08rem;
+    background: #7d7d7d;
+    border-radius: 5rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    color:  #7b7b7b;
+    position: relative;
+}
+.first1 .font3{
+    position: absolute;
+    bottom: 0.15rem;
+    left: 0.1rem;
+}
+.bottom{
+    width: 7.48rem;
+    height: 4.07rem;
+    margin-top: 0.82rem;
+}
+.bottom img{
+    width: 7.48rem;
+    height: 4.07rem;
+}

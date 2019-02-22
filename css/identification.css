@@ -1,0 +1,390 @@
+.content{
+    width: 100%;
+    height: 14.5rem;
+    background-image: linear-gradient(90deg,
+    #000000 0%,
+    #432a67 0%,
+    #8654cd 0%,
+    #d60aef 100%);
+}
+.content .title{
+    width: 100%;
+    height: 1.1rem;
+    font-size: 0.36rem;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.24rem;
+    position: fixed;
+    background:linear-gradient(90deg,
+    #000000 0%,
+    #432a67 0%,
+    #8654cd 0%,
+    #d60aef 100%);
+    z-index: 99;
+}
+.title .img1{
+    width: 0.36rem;
+    height: 0.36rem;
+}
+.title .img2{
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.contentBox{
+    width: 7rem;
+    height: 3.08rem;
+    margin: 0 auto;
+    padding-top: 1.2rem;
+    /*position: relative;*/
+    /*top:1.2rem;*/
+}
+.contentBox .top{
+    width: 7rem;
+    height: 0.06rem;
+    background: #c705ff;
+}
+.contentBox .bottom{
+    width: 7rem;
+    height: 3.02rem;
+    background: white;
+}
+.bottom .first{
+    width: 100%;
+    height: 1.53rem;
+    display: flex;
+}
+.first .left , .first .left1{
+    width: 2.09rem;
+    height: 1.53rem;
+    /*background: red;*/
+}
+.left img{
+    width: 1.67rem;
+    height: 1.1rem;
+    margin: 0.2rem auto;
+}
+.left1 img{
+    width: 1.37rem;
+    height: 1.33rem;
+    margin:0.1rem  auto;
+}
+.first .center{
+    width: 1.94rem;
+    height: 100%;
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.8);
+    text-align: center;
+    margin-top: 0.35rem;
+}
+.center .add{
+    width:1.47rem;
+    height: 0.74rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.add img{
+    width: 0.37rem;
+    height: 0.37rem;
+}
+.first .right{
+    width: 2.97rem;
+    height: 100%;
+    display: flex;
+    margin-top: 0.15rem;
+    /*background: #ff6700;*/
+}
+.right .one{
+    width:1.8rem;
+    height: 1.53rem;
+    line-height: 1.53rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.8);
+}
+.one p{
+    float: right;
+}
+.one span{
+    font-size: 0.24rem;
+    color: #d4237a;
+}
+.right .two{
+    width: 0.22rem;
+    height: 1.53rem;
+}
+.two img{
+    width: 0.01rem;
+    height: 0.66rem;
+    margin: 0.4rem auto;
+}
+.right .three{
+    width: 0.96rem;
+    height: 1.53rem;
+    font-size: 0.24rem;
+    font-weight: bold;
+    color:#d4237a ;
+    margin-top: 0.35rem;
+}
+.three .font{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.8);
+}
+.font span{
+    color: #d4237a;
+}
+.bottom .underline{
+    width: 6.67rem;
+    height: 0.01rem;
+    border: solid 0.01rem rgba(0,0,0,0.1);
+    margin: 0 auto;
+}
+.contentBox1{
+    width: 7rem;
+    height: 1.61rem;
+    margin: 1.2rem auto 0;
+}
+.contentBox1 .content1Box{
+    width: 7rem;
+    height: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contentBox1 .content2Box{
+    width: 7rem;
+    height: 0.81rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.font1{
+    font-size: 0.24rem;
+    color: #ffffff;
+}
+.font2{
+    font-size: 0.3rem;
+    color: rgba(255,255,255,0.8);
+}
+.contentBox2{
+    width: 7rem;
+    height: 8.3rem;
+    background: #ffffff;
+    margin: 0 auto;
+    /*padding-top: 1.2rem;*/
+}
+.contentBox2 .content2Box1{
+    width: 6.75rem;
+    height: 1rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.content2Box1 .bigCircle{
+    width: 0.16rem;
+    height: 0.16rem;
+    background:rgba(208,106,255,0.5);
+    box-shadow: 0 0.03rem 0.07rem 0
+    rgba(165, 72, 228, 0.64);
+    border-radius: 50%;
+    margin-left: 0.29rem;
+    position: relative;
+}
+.content2Box1 .smallCircle{
+    width: 0.07rem;
+    height: 0.07rem;
+    background: #d06aff;
+    border-radius: 50%;
+    position: absolute;
+    top:0.045rem;
+    left: 0.045rem;
+}
+.content2Box1 .content2Box2{
+    font-size: 0.24rem;
+    font-weight: bold;
+    color: rgba(7,7,7,0.5);
+    margin-left: 0.2rem;
+    margin-right: auto;
+}
+.content2Box1  .content2Box3{
+    font-size: 0.24rem;
+    color: #d4237a;
+    margin-right: 0.26rem;
+}
+.content2Box4{
+    width: 6.67rem;
+    height: 0.01rem;
+    border: solid 0.01rem rgba(0,0,0,0.05);
+    margin: 0 auto;
+}
+/*第一个*/
+.content2Box1 .bigCircle1{
+    width: 0.16rem;
+    height: 0.16rem;
+    background:rgba(255,106,173,0.5);
+    box-shadow: 0 0.03rem 0.07rem 0
+    rgba(228, 72, 90, 0.64);
+    border-radius: 50%;
+    margin-left: 0.29rem;
+    position: relative;
+}
+.content2Box1 .smallCircle1{
+    width: 0.07rem;
+    height: 0.07rem;
+    background: #ff6aa6;
+    border-radius: 50%;
+    position: absolute;
+    top:0.045rem;
+    left: 0.045rem;
+}
+.content2Box1 .content2Box32{
+    width: 1.69rem;
+    height: 0.41rem;
+    line-height: 0.41rem;
+    text-align: center;
+    background-image: linear-gradient(90deg,
+    #994fde 0%,
+    #cf11ed 100%),
+    linear-gradient(
+            #ff0000,
+            #ff0000);
+    box-shadow: 0 0.01rem 0.15rem 0
+    rgba(180, 55, 234, 0.51);
+    border: solid 0.01rem #bfbfbf;
+    border-radius: 10rem;
+    font-size: 0.24rem;
+    font-weight: bold;
+    color: white;
+}
+/*第二个*/
+.content2Box1 .bigCircle2{
+    width: 0.16rem;
+    height: 0.16rem;
+    background:rgba(141,106,255,0.5);
+    box-shadow: 0 0.03rem 0.07rem 0
+    rgba(55, 11, 241, 0.64);
+    border-radius: 50%;
+    margin-left: 0.29rem;
+    position: relative;
+}
+.content2Box1 .smallCircle2{
+    width: 0.07rem;
+    height: 0.07rem;
+    background:  #6a8aff;
+    border-radius: 50%;
+    position: absolute;
+    top:0.045rem;
+    left: 0.045rem;
+}
+.content2Box1 .content2Box33{
+    width: 1.28rem;
+    height: 0.37rem;
+    line-height: 0.37rem;
+    text-align: center;
+    border-radius: 0.12rem;
+    border: solid 0.02rem #bfbfbf;
+    font-size: 0.24rem;
+    font-weight: bold;
+    color: #eb6100;
+}
+/*第三个*/
+.content2Box1 .bigCircle3{
+    width: 0.16rem;
+    height: 0.16rem;
+    background:rgba(12,172,255,0.5);
+    box-shadow: 0 0.03rem 0.07rem 0
+    rgba(0, 192, 255, 0.64);
+    border-radius: 50%;
+    margin-left: 0.29rem;
+    position: relative;
+}
+.content2Box1 .smallCircle3{
+    width: 0.07rem;
+    height: 0.07rem;
+    background:  #06ceec;
+    border-radius: 50%;
+    position: absolute;
+    top:0.045rem;
+    left: 0.045rem;
+}
+.content2Box1 .content2Box34{
+    font-size: 0.24rem;
+    color: rgba(1,1,1,0.8);
+    font-weight: bold;
+}
+/*第四个*/
+.content2Box1 .bigCircle4{
+    width: 0.16rem;
+    height: 0.16rem;
+    background:rgba(241,255,12,0.5);
+    box-shadow: 0 0.03rem 0.07rem 0
+    rgba(171, 232, 5, 0.64);
+    border-radius: 50%;
+    margin-left: 0.29rem;
+    position: relative;
+}
+.content2Box1 .smallCircle4{
+    width: 0.07rem;
+    height: 0.07rem;
+    background:  #d4ed02;
+    border-radius: 50%;
+    position: absolute;
+    top:0.045rem;
+    left: 0.045rem;
+}
+/*第五个*/
+.content2Box1 .bigCircle5{
+    width: 0.16rem;
+    height: 0.16rem;
+    background:rgba(255,46,12,0.5);
+    box-shadow: 0 0.03rem 0.07rem 0
+    rgba(232, 21, 5, 0.64);
+    border-radius: 50%;
+    margin-left: 0.29rem;
+    position: relative;
+}
+.content2Box1 .smallCircle5{
+    width: 0.07rem;
+    height: 0.07rem;
+    background: #ed2902;
+    border-radius: 50%;
+    position: absolute;
+    top:0.045rem;
+    left: 0.045rem;
+}
+/*第六个*/
+.content2Box1 img{
+    width: 0.14rem;
+    height: 0.24rem;
+    margin-left: 0.15rem;
+}
+.btn{
+    width: 1.69rem;
+    height: 0.41rem;
+    outline: none;
+    background-image: linear-gradient(90deg,
+    #9c4bdf 0%,
+    #cd13ec 100%),
+    linear-gradient(
+            #ff0000,
+            #ff0000);
+    box-shadow: 0 0.01rem 0.15rem 0
+    rgba(158, 74, 223, 0.51);
+    border: solid 1px #bfbfbf;
+    border-radius: 5rem;
+    font-size: 0.24rem;
+    color: #ffffff;
+    position: absolute;
+    top:13.25rem;
+    left:2.95rem ;
+}
+.btn>a{
+    text-decoration: none;
+    color: white;
+}
